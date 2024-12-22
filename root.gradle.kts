@@ -30,6 +30,7 @@ preprocess {
     val mc11701 = createNode("1.17.1", 11701, "yarn")
     val mc11605 = createNode("1.16.5", 11605, "yarn")
 
+    mc12103.link(mc12101)
     mc12101.link(mc12100)
     mc12100.link(mc12006)
     mc12006.link(mc12005)
