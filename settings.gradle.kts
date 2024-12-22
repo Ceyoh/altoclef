@@ -41,3 +41,5 @@ listOf(
         name = version
     }
 }
+include("versions:1.21.3")
+findProject(":versions:1.21.3")?.name = "1.21.3"
